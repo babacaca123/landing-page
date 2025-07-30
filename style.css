@@ -34,6 +34,7 @@ body {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
      
 }
 .signup img{
@@ -51,6 +52,7 @@ body {
 .signup p{
     color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 8px;
 }  
 .left-signup {
      
@@ -66,6 +68,7 @@ body {
     font-size: 14px;
     color: #f9faf8;
     border-color: #3882F6;
+    font-weight: 900;
 
 }
 
@@ -89,7 +92,7 @@ body {
     display: flex;
  
     justify-content: center;
-    gap: 24px;
+    gap: 48px;
      
 
 }
@@ -114,4 +117,85 @@ body {
    /* align-items: center;
     justify-content: center; */
     width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px; ;
+    align-items: center;
+    padding-bottom: 84px;
+
+    
+}
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    justify-content: center;
+    margin: 0px;
+    color: rgb(51, 51, 51);
+}
+
+.quote-box {
+    display: flex;
+     width: 800px;
+    flex-direction: column; 
+}
+
+
+ .quote h6 {
+    display: flex;
+    /* align-items: end;
+    
+    margin-left: 450px; */
+    font-size: 24px;
+    margin: 0px;
+    justify-content: flex-end;
+} 
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    margin: 80px 160px;
+    height: 144px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.call-to-action button {
+    box-sizing: border-box;
+    border-color: #ffffff;
+    padding: 6px 32px;
+    height: 32px;
+     
+     
+
+}
+.call-to-action div{
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:  500px;
+    
+
+    
+}
+.call-to-action h2, p {
+    padding: 0px ;
+    margin: 0px;
+    
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 16px;
+    display: flex; 
+    color: #e5e7eb;
+    justify-content: center;
+    align-content: center;
+    padding: 36px;
 }
